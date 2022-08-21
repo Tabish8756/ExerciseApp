@@ -1,0 +1,41 @@
+
+.heading h1{
+   color: rgb(235, 15, 15);
+}
+.paginationBttns{
+    height: 30px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+
+}
+.paginationBttns a{
+    padding: 3px;
+    margin: 3px;
+    border: 1px solid rgb(235, 15, 15);
+    border-radius: 5px;
+    color:  rgb(235, 15, 15);
+    cursor: pointer;
+}
+.paginationBttns a:hover{
+    color:  rgb(235, 15, 15);
+}
+.paginationActive a{
+  background-color: rgb(235, 15, 15);
+  color: white;
+
+}
+
+.btnAddActivity{
+    margin-bottom: 10px;
+    border: none;
+    background-color: white;
+    color:rgb(235, 15, 15);
+    font-size: 15px;
+    padding: 5px;
+}
+.btnAddActivity:hover{
+    border: 1px solid rgb(235, 15, 15);
+    cursor: pointer;
+    border-radius: 4px;
+}

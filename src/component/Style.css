@@ -1,0 +1,361 @@
+.logo{
+  background-color: aqua;
+  display: flex;
+  justify-content: center;
+  margin-right: 60px;
+  /* border: 1px solid black; */
+}
+.logo img{
+    background-color: aquamarine;
+    width: 250px;
+}
+
+.landingPage{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    background-color: rgb(241, 8, 8);
+}
+.lndngPageDtls{
+    /* background-color: rgb(230, 8, 8); */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 400px;
+    width: 350px;
+    align-items: center;
+    background-color: white;
+    border-radius: 10px;
+}
+.btnRgstr{
+    border: none;
+    border-radius: 5px;
+    padding: 6px;
+    font-size: 18px;
+    background-color: rgb(241, 8, 8);
+    color: white;
+
+}
+.btnRgstr:hover{
+    cursor: pointer;
+}
+.btnLgn{
+    border: none;
+    border-radius: 5px;
+    padding: 6px;
+    font-size: 18px;
+    background-color: rgb(241, 8, 8);
+    color: white;
+}
+.btnLgn:hover{
+    cursor: pointer;
+}
+.loginDetails{
+    list-style: none;
+    display: flex;
+}
+.userAction{
+    display: flex;
+    /* background-color: antiquewhite; */
+    justify-content: center;
+    height: 50px;
+    align-items:center ;
+    margin-right: 20px;
+}
+.userAction button{
+    margin-left: 24px;
+    border: none;
+    padding: 8px;
+    font-size: 15px;
+    background-color: rgb(241, 8, 8);
+    color: white;
+    font-weight: 500;
+   
+}
+.userAction h3{
+    text-transform: capitalize;
+}
+.userAction button:hover{
+    cursor: pointer;
+    border: 1px solid white;
+    border-radius: 3px;
+}
+.icon{
+    height:40px;
+    color:white;
+    font-size: 22px;
+    width:40px;
+    margin-top: 15px;
+    margin-left: 5px;
+}
+.bodyPart{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 50px;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.partList li {
+    display:inline-block;
+    margin: 10px;
+    text-transform: capitalize;
+}
+.partList li:hover{
+    cursor: pointer;
+    border-bottom: 2px solid rgb(241, 8, 8);
+}
+
+.loginForm{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    align-items: center;
+    background-color: rgb(255, 5, 5);
+    line-height: 2em;
+}
+.loginForm h1{
+    color: white;
+}
+.loginForm input{
+    height: 25px;
+    width: 240px;
+    margin: 10px;
+    border: none;
+    border-bottom: 1px solid black;
+}
+.loginForm input:focus{
+    outline: none;
+
+}
+.login{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 400px;
+    width: 400px;
+    align-items: center;
+    background-color: white;
+    border-radius: 8px;
+}
+
+.sbmtButton{
+    padding: 10px;
+    border: none;
+    background-color: rgb(241, 8, 8);
+    color: white;
+    border-radius: 5px;
+    font-size: 15px;
+}
+.sbmtButton:hover{
+    cursor: pointer;
+}
+
+.createAccount{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    align-items: center;
+    background-color: rgb(241, 8, 8);
+}
+.createAccount h1{
+    color:white;
+}
+.accountDetails{
+    display: flex;
+    justify-content: center;
+    height: 400px;
+    width: 400px;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 8px;
+}
+.accountDetails input{
+    margin: 8px;
+    height: 25px;
+    width: 240px;
+    border: none;
+    border-bottom: 1px solid  black;
+}
+.accountDetails input:focus{
+    outline: none;
+}
+
+.welcomeCard{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    align-items: center;
+    background-color: rgb(245, 10, 10);
+
+}
+.welcomeCard h1{
+    text-transform: capitalize;
+}
+.cardDetails{
+    background-color: white;
+    height: 400px;
+    width:600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 8px;
+}
+.cardDetails button{
+    padding: 10px;
+    border: none;
+    background-color: rgb(241, 8, 8);
+    color: white;
+    border-radius: 5px;
+    font-size: 15px;
+}
+.cardDetails button:hover{
+    cursor: pointer;
+}
+
+@media screen and (max-width:600px){
+    .cardDetails{
+        background-color: white;
+        height: 400px;
+        width:300px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-radius: 8px;
+}
+}
+
+.appointForm{
+    display: flex;
+    justify-content: center;
+}
+.appointDetails{
+    display: flex;
+    flex-direction: column;
+
+}
+.appointDetails input{
+    height: 24px;
+    width: 300px;
+    border-radius: 5px;
+}
+.appointDetails label{
+    font-weight: 600;
+    margin: 5px;
+}
+.appointDetails button{
+    margin-top: 10px;
+    background-color: rgb(241, 8, 8);
+    border: none;
+    border-radius: 6px;
+    color: white;
+    padding: 7px;
+    font-size: 16px;
+}
+.appointDetails button:hover{
+    cursor: pointer;
+}
+.apntBtn{
+   border:none;
+   background-color: white;
+   font-size: 18px;
+   color:rgb(245, 10, 10);
+   border: 1px solid rgb(245, 10, 10);
+   border-radius: 5px;
+   padding: 7px;
+
+}
+.apntBtn:hover{
+    cursor: pointer;
+    background-color: rgb(245, 10, 10);
+    color: white;
+}
+/* .Modal{
+    background-color: rgb(219, 210, 210);
+    display: flex;
+    justify-content: center;
+    height:400px;
+    align-items: center;
+    border-radius: 8px;
+    margin-top: 80px ;
+}
+.Overlay{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+} */
+.appointCard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cardDetails p{
+    text-transform: capitalize;
+}
+.activityTable{
+    /* background-color: antiquewhite; */
+    margin-top: 50px;
+    width:100%;
+    /* border: 1px solid rgb(241, 8, 8); */
+    
+}
+.activityTable th{
+    text-align: center;
+    /* border: 1px solid rgb(241, 8, 8); */
+    background-color: rgb(241, 8, 8);
+    color: white;
+}
+.activityTable td{
+    /* border: 1px solid rgb(241, 8, 8); */
+    text-transform: capitalize;
+}
+.btnDelete{
+    border:none;
+    background-color: rgb(241, 8, 8);
+    color: white;
+    border-radius: 3px;
+}
+.btnDelete:hover{
+    cursor: pointer;
+}
+.appnDetail{
+display: flex;
+justify-content: center;
+height: 100vh;
+align-items: center;
+}
+.apnData{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: start;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 50px;
+    background-color: rgb(230, 8, 8);
+}
+.apnData h3{
+    margin: 10px;
+    color: white;
+    font-weight: 600;
+}
+.btnCancel{
+    border:none;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    padding: 6px;
+    font-size: 16px;
+    color: rgb(241, 8, 8);
+}
+.btnCancel:hover{
+    cursor: pointer;
+}

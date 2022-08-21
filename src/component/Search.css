@@ -1,0 +1,34 @@
+.search{
+    margin-top: 80px;
+}
+
+.search input{
+     width: 350px;
+     height: 20px;
+     border: none;
+     border-bottom: 1px solid black;
+     
+}
+.search input:focus{
+       outline: none;
+}
+.search button{
+    background-color: rgb(255, 85, 0);
+    padding: 5px;
+    border: none;
+    color: white;
+    border-radius: 5px;
+}
+.exerciseCard{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px;
+    
+}
+.displayDetails{
+    border: 1px solid black;
+    margin: 20px;
+    width:350px;
+    height:260px;
+}
